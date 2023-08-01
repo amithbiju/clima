@@ -1,0 +1,58 @@
+.xbody {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   
+  }
+  
+  html {
+    box-sizing: border-box;
+    background-color: #474e5d;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+
+  
+  
+  .about-section {
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: rgb(241, 244, 237);
+  }
+  
+  .container1 {
+    padding: 0 16px;
+    position: relative;
+    left:15em;
+    width:auto;
+  
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(239, 24, 24);
+  }
+  
+
+  
+ 
+  
+  @media screen and (max-width: 473px) {
+    .column {
+      width: 100%;
+      display:block;
+    }
+
+   
+   }
+  
